@@ -1,0 +1,32 @@
+#body {
+        background-color: red;
+      }
+/*Phone portrait and lanscape*/
+@media only screen and (min-width: 320px) and
+       (min-height: 640px) {
+    
+    #body {
+        background-color: red;
+    }
+}
+
+/*Tablet Portrait and landscape*/
+@media only screen and (min-device-width: 768px)
+                   and (max-device-width: 1024px)
+                   and (orientation: portrait)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    
+    body {
+      background-color: green;
+    }
+    
+}
+
+/*Above 1024px */ 
+@media only screen and (min-device-width: 1024px) {
+  
+  body {
+    background-color: blue;
+  }
+  
+}
